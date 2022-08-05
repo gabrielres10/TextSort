@@ -1,0 +1,19 @@
+    @FXML
+    @FXML
+    @FXML
+    @FXML
+    @FXML
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+package control;
+    private Button csvBTN;
+    private Button txtBTN;
+    private TextField fileRootTF;
+public class MainWindow {
+    void toCSV(ActionEvent event) {
+    void toTXT(ActionEvent event) {
+    }
+    }
+}
